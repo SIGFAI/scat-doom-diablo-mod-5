@@ -1,0 +1,56 @@
+// Generated sounds (fal / ElevenLabs) and Kenney CC0 sounds, see CREDITS.md
+skel/sight      sounds/bonerattle.ogg
+skel/active     sounds/bonerattle.ogg
+skel/pain       sounds/bonehit.ogg
+skel/death      sounds/bonedeath.ogg
+skel/shoot      sounds/bowtwang.ogg
+arrow/hit       sounds/arrowhit.ogg
+fallen/sight    sounds/fallensight.ogg
+fallen/pain     sounds/fleshhit.ogg
+fallen/death    sounds/fallendeath.ogg
+fallen/panic    sounds/fallenpanic.ogg
+fallen/stab     sounds/swordswing.ogg
+fire/cast       sounds/firecast.ogg
+fire/boom       sounds/fireboom.ogg
+zombie/sight    sounds/zombiegroan.ogg
+zombie/active   sounds/zombiegroan.ogg
+zombie/pain     sounds/zombiehurt.ogg
+zombie/death    sounds/zombiedeath.ogg
+zombie/bite     sounds/fleshhit.ogg
+butcher/sight   sounds/butcher_sight.ogg
+butcher/pain    sounds/butcherpain.ogg
+butcher/death   sounds/zombiedeath.ogg
+butcher/swing   sounds/swordswing.ogg
+butcher/chop    sounds/cleaver.ogg
+diablo/sight    sounds/diabloroar.ogg
+diablo/hiss     sounds/creeperhiss.ogg
+diablo/pain     sounds/butcherpain.ogg
+diablo/death    sounds/diabloroar.ogg
+diablo/cat      sounds/diablo_cat.ogg
+cat/meow        sounds/meow.ogg
+cat/hiss        sounds/cathiss.ogg
+cat/cast        sounds/firecast.ogg
+cat/boltboom    sounds/fireboom.ogg
+cat/intro       sounds/cat_intro.ogg
+cat/identify    sounds/cat_identify.ogg
+cat/butcher     sounds/cat_butcher.ogg
+cat/diablo      sounds/cat_diablo.ogg
+cat/victory     sounds/cat_victory.ogg
+loot/drop       sounds/itemdrop.ogg
+loot/rare       sounds/raredrop.ogg
+loot/gold       sounds/coin1.ogg
+loot/gold2      sounds/coin2.ogg
+loot/potion     sounds/drink.ogg
+loot/xp         sounds/xporb.ogg
+loot/levelup    sounds/levelup.ogg
+quest/done      sounds/questdone.ogg
+mc/poof         sounds/poof.ogg
+mc/break        sounds/blockbreak.ogg
+tnt/fuse        sounds/tntfuse.ogg
+tnt/boom        sounds/tntboom.ogg
+ui/click        sounds/uiclick.ogg
+
+$volume cat/cast 0.6
+$volume cat/boltboom 0.5
+$limit loot/drop 4
+$limit mc/poof 3

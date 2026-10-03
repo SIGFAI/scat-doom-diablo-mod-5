@@ -1,0 +1,70 @@
+// Dynamic lights: torches, glowstone, fire, the cat's magic, explosions (shown when the player's GL lights are on)
+
+flickerlight2 SIC_TORCH
+{
+	color 1.0 0.72 0.35
+	size 72
+	secondarySize 84
+	interval 0.12
+	offset 0 52 0
+}
+
+pointlight SIC_GLOW
+{
+	color 1.0 0.85 0.45
+	size 96
+	offset 0 56 0
+}
+
+pointlight SIC_FIRE
+{
+	color 1.0 0.55 0.15
+	size 56
+}
+
+pointlight SIC_HELLFIRE
+{
+	color 1.0 0.3 0.1
+	size 80
+}
+
+pointlight SIC_ARCANE
+{
+	color 0.35 0.55 1.0
+	size 56
+}
+
+pointlight SIC_BOOM
+{
+	color 1.0 0.7 0.3
+	size 200
+}
+
+pointlight SIC_BURN
+{
+	color 1.0 0.5 0.1
+	size 40
+}
+
+object SICTorch { frame TRCH { light SIC_TORCH } }
+object SICTorch2 { frame TRCH { light SIC_TORCH } }
+object SICTorch3 { frame TRCH { light SIC_TORCH } }
+object SICTorch4 { frame TRCH { light SIC_TORCH } }
+object SICTorch5 { frame TRCH { light SIC_TORCH } }
+object SICTorch6 { frame TRCH { light SIC_TORCH } }
+object SICTorch7 { frame TRCH { light SIC_TORCH } }
+object SICTorch8 { frame TRCH { light SIC_TORCH } }
+object SICGlowPost { frame COLG { light SIC_GLOW } }
+object SICGlowPost2 { frame COLG { light SIC_GLOW } }
+object SICGlowPost3 { frame COLG { light SIC_GLOW } }
+object SICGlowPost4 { frame COLG { light SIC_GLOW } }
+object SICGlowLamp { frame COLG { light SIC_GLOW } }
+object SICGlowLamp2 { frame COLG { light SIC_GLOW } }
+object SICFireball { frame FBAL { light SIC_FIRE } }
+object SICPlayerFireball { frame FBAL { light SIC_FIRE } }
+object SICHellfire { frame FBAL { light SIC_HELLFIRE } }
+object SICNovaFire { frame NOVA { light SIC_HELLFIRE } }
+object SICFireArrow { frame ARRW { light SIC_BURN } }
+object SICCatBolt { frame ABOL { light SIC_ARCANE } }
+object SICBoomFlash { frame FBAL { light SIC_BOOM } }
+object SICFlame { frame FBAL { light SIC_BURN } }
