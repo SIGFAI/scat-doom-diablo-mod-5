@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "name": "SCAT, mod 5: Doom × Diablo",
   "tagline": "Turn every game into Minecraft. This time, mix in Diablo with a funny twist of your own.",
+  "how_to_play": [
+    "Clear the blocky cathedral: slay 12 demons, then the Butcher, then banish the Lord of Ssssterror.",
+    "A wizard cat companion follows you, casts bolts at demons and chats; the Lord runs from it.",
+    "You start with the Enchanted Bow; find the Fire Staff, Multishot Bow and throwable TNT in the level.",
+    "Grab the gold, potions and gear that monsters drop; when a Fallen One dies, the others panic and flee."
+  ],
   "kind": "mashup",
   "games": [
     {
